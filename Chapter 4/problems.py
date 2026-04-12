@@ -1,0 +1,15 @@
+marks=[];
+m1=int(input("Enter marks : "))
+marks.append(m1)
+m1=int(input("Enter marks : "))
+marks.append(m1)
+m1=int(input("Enter marks : "))
+marks.append(m1)
+m1=int(input("Enter marks : "))
+marks.append(m1)
+m1=int(input("Enter marks : "))
+marks.append(m1)
+
+marks.sort()
+print(marks)
+print(f"the sum of marks is : {sum(marks)}")
